@@ -23,7 +23,7 @@ def find(element, matrix):
 
 
 #####
-fittingMatrix = loadtxt("fitting.dat", dtype=float)
+fittingMatrix = loadtxt("Assignment_3/fitting.dat", dtype=float)
 N = len(fittingMatrix)  #                  No. of time instances
 k = len(fittingMatrix[0]) - 1  #           No. of signals
 time = fittingMatrix[:, 0]  #              time array
